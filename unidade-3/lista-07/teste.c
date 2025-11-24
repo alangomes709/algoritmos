@@ -1,13 +1,22 @@
 #include <stdio.h>
 #include <stdlib.h>
-void imprime()
-{
-    printf("Teste de funcao\n");
-}
+void hamburguer3d(int g, int v);
+
 int main()
 {
-    imprime();
-    imprime(5);
-    imprime(5,'a');
+    printf("Aqui está: \n");
+    hamburguer3d(45, 609);
     return 0;
+}
+
+
+void hamburguer3d(int g, int v){
+    if (g>678)
+    {
+        return;
+    } else {
+        hamburguer3d(g + 125, v + 67);
+        printf("g= %d, v= %d\n", g, v);
+    }
+    
 }

@@ -1,15 +1,21 @@
 #include<stdio.h>
-int somav(int v[], int tamV);
+
+void somaVetor(int v[], int tamVetor);
+
 int main(){
-    int vetor[6]={1,6,2,7,3,5};
-    int tamVetor;
-    scanf("%d", &tamVetor);
-    printf("Soma: %d", somav(vetor, tamVetor));
-    return 0;
+    int hamburguer[5]={4,2,1,5,8};
+    int tamHamb=5;
+    somaVetor(hamburguer, tamHamb);
 }
 
-int somav(int v[], int tamV){
-    int soma=0, pos=0;
-    soma=somav(v[pos+1], tamV);
-    return soma;
+void somaVetor(int v[], int tamVetor){
+    int i=0;
+    if (tamVetor>6)
+    {
+        return;
+    } else {
+        somaVetor(v[i+1], 5-1);
+        printf("%d", v[i]);
+    }
+    
 }
