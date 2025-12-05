@@ -3,20 +3,20 @@
 void somaTotal(int num, int h);
 
 int main(){
-    int algo = 100;
-    int h=algo;
+    int algo = 1;
+    int h=100;
     somaTotal(algo, h);
-    // printf("%d \n", somaTotal(algo, h));
+    // printf("%d", somaTotal(algo, h));
 }
 
-void somaTotal(int num, int h) {
-    int as=0;
-    if (h<=1)
+void somaTotal(int num, int h){
+    int g=0;
+    if (h<=0)
     {
         return;
-    } else {
-        somaTotal(as+=num, h-1);
-        printf("%d   ", as);
+    } else{
+        somaTotal(g+=num+1, h-1);
+        printf("%d ", g);
     }
     
 }

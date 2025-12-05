@@ -14,7 +14,6 @@ int main() {
         {
             printf("%d \n", i);
             printf("Não e primo");
-            return 0;
         }
     }
 
