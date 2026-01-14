@@ -15,7 +15,7 @@ int main(){
             // 3
             // 4
             // 5 
-            //  6 // encerra
+            // 6  // encerra
 void cresc(int x, int n){
 	if (x<=n){
 		printf("%d ", x);

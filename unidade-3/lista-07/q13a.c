@@ -20,7 +20,7 @@ int main()
     }
     for (int i = 9; i >= 9; i--)
     {
-        resul = Somar(j[i]);
+        resul += Somar(j[i]);
     }
     printf("%d", resul);
 }
