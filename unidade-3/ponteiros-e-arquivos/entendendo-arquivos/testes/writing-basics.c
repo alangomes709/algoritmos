@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-#define ANOTACAO "\\home\\alan\\Documents\\GitHub\\algoritimos\\unidade-3\\ponteiros-e-arquivos\\entendendo-arquivos\\testes\\bigode.txt"
+#define ANOTACAO "bigode.txt"
 int main(){
     FILE *gorgonzola;
     char escrever[20];
@@ -16,6 +16,7 @@ int main(){
     fgets(escrever,20,stdin);
     for (i = 0; i < 20; i++)
     {
+        fputc(escrever[i], stdout);
         fputc(escrever[i], gorgonzola);
     }
     fclose(gorgonzola);
