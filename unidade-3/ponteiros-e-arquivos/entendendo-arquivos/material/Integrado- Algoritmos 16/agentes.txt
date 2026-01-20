@@ -1,3 +1,5 @@
 Allan 3
 Luis 2
 Luciano 5
+Luciano 5
+aks.txt 8192
