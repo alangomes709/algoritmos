@@ -1,0 +1,6 @@
+Banco de dados da loja                          informacoes passadas para registro do cliente
+
+pao com ovo 			Rs: 23 id: 45                   // pacote dimen codigo
+tablet da positivo 		Rs: 23 id: 45                   // pacote dimen codigo
+cafe 				    Rs: 23 id: 45                       // pacote dimen codigo
+xeon e5 2667 v4 		Rs: 23 id: 45                   // pacote dimen codigo

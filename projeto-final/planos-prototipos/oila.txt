@@ -1,0 +1,5 @@
+pedido do cliente joabe id 23 tablet
+codigo pedido
+preco
+distancia da casa ate o ponto de partida/dimen
+data
