@@ -15,7 +15,6 @@ struct Produtos {
 	struct Dimensoes dimen;
 };
 //taxa de entrega, com base nas dimensoes do produto, frete
-//pode ser interessante criar um histórico para os clientes
 struct Pedido {
 	int codigo;
 	struct Produtos prod;
@@ -23,8 +22,9 @@ struct Pedido {
 	char data[10];
 };
 
-void novo_registro(char nomearq[]);
+void novo_pedido(char nomearq[]);
 
 int main(){
 	
 }
+
