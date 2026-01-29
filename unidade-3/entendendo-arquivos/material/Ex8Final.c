@@ -27,7 +27,8 @@ int main(){
    char ch;
    
    /*** carrega a base de dados em agentes[], n é o tamanho da base de dados     */
-   n = cargadb(agentes);              
+   n = cargadb(agentes);
+   printf("%d", n);
 
    /* seleciona uma opção do menu e processa os dados em memória  */
 	do{
